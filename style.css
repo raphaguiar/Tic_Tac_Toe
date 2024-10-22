@@ -1,0 +1,58 @@
+body {
+    font-family: 'Rethink Sans', cursive, sans-serif;
+    background-color: #f2fcef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #FFB6C1;
+    margin-bottom: 20px;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+}
+
+.cell {
+    width: 100px;
+    font-family: 'Rethink Sans', cursive, sans-serif;
+    height: 100px;
+    background-color: #ecc4d2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: #8B4513;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cell:hover {
+    background-color: #ded378;
+}
+
+.reset {
+    margin-top: 20px;
+    font-family: 'Rethink Sans', cursive, sans-serif;
+    padding: 10px 20px;
+    background-color: #E6E6FA;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #8B4513;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reset:hover {
+    background-color: #FFB6C1;
+}
